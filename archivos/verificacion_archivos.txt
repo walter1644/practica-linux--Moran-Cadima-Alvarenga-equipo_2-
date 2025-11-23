@@ -25,3 +25,31 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/respaldos/documento_10.txt
 -rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/respaldos/documento_09.txt
 
+========== VERIFICACIÓN DE ARCHIVOS - MORAN ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_moran_A
+/mnt/lvm_storage_moran_A/lost+found
+/mnt/lvm_storage_moran_A/proyectos
+/mnt/lvm_storage_moran_A/proyectos/activos
+/mnt/lvm_storage_moran_A/proyectos/archivados
+/mnt/lvm_storage_moran_A/temporal
+/mnt/lvm_storage_moran_A/respaldos
+
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 58 Nov 15 16:03 /mnt/lvm_storage_moran_A/test.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:32 /mnt/lvm_storage_moran_A/proyectos/activos/documento_01.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:32 /mnt/lvm_storage_moran_A/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:32 /mnt/lvm_storage_moran_A/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:32 /mnt/lvm_storage_moran_A/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:32 /mnt/lvm_storage_moran_A/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_07.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:31 /mnt/lvm_storage_moran_A/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:33 /mnt/lvm_storage_moran_A/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:33 /mnt/lvm_storage_moran_A/respaldos/documento_09.txt
+
