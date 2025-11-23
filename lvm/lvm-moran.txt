@@ -1,10 +1,34 @@
 ========== VERIFICACIÓN DE LVM - ALUMNO B - MORAN ==========
 === ESPACIO EN DISCO SIN LVM MONTADO ===
+Filesystem               Size  Used Avail Use% Mounted on
+tmpfs                    197M  1.7M  195M   1% /run
+/dev/sda1                 39G  8.1G   31G  21% /
+tmpfs                    982M     0  982M   0% /dev/shm
+tmpfs                    5.0M     0  5.0M   0% /run/lock
+home_vagrant_compartido  931G  449G  483G  49% /home/vagrant/compartido
+vagrant                  931G  449G  483G  49% /vagrant
+tmpfs                    197M  112K  197M   1% /run/user/128
+tmpfs                    197M  100K  197M   1% /run/user/1000
+
 === ESPACIO EN DISCO CON LVM MONTADO ===
+Filesystem                                       Size  Used Avail Use% Mounted on
+tmpfs                                            197M  1.7M  195M   1% /run
+/dev/sda1                                         39G  8.1G   31G  21% /
+tmpfs                                            982M     0  982M   0% /dev/shm
+tmpfs                                            5.0M     0  5.0M   0% /run/lock
+home_vagrant_compartido                          931G  449G  483G  49% /home/vagrant/compartido
+vagrant                                          931G  449G  483G  49% /vagrant
+tmpfs                                            197M  112K  197M   1% /run/user/128
+tmpfs                                            197M  100K  197M   1% /run/user/1000
+/dev/mapper/vg_datos_moran_A-lv_storage_moran_A  1.5G  112K  1.4G   1% /mnt/lvm_storage_moran_A
+
 === ESCANEO DE LOGICAL VOLUMES ===
   ACTIVE            '/dev/vg_datos_moran_A/lv_storage_moran_A' [1.50 GiB] inherit
+
 === ESCANEO DE PHYSICAL VOLUMES ===
   PV /dev/sdc   VG vg_datos_moran_A   lvm2 [<2.00 GiB / 508.00 MiB free]
   Total: 1 [<2.00 GiB] / in use: 1 [<2.00 GiB] / in no VG: 0 [0   ]
+
 === ESCANEO DE VOLUME GROUPS ===
   Found volume group "vg_datos_moran_A" using metadata type lvm2
+
