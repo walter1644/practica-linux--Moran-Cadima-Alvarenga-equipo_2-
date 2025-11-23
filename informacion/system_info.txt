@@ -1,40 +1,23 @@
-========== FASTFETCH DE ALUMNO B - Moran ==========
-                             ....
-              .',:clooo:  .:looooo:.
-           .;looooooooc  .oooooooooo'
-        .;looooool:,''.  :ooooooooooc
-       ;looool;.         'oooooooooo,
-      ;clool'             .cooooooc.  ,,
-         ...                ......  .:oo,
-  .;clol:,.                        .loooo'
- :ooooooooo,                        'ooool
-'ooooooooooo.                        loooo.
-'ooooooooool                         coooo.
- ,loooooooc.                        .loooo.
-   .,;;;'.                          ;ooooc
-       ...                         ,ooool.
-    .cooooc.              ..',,'.  .cooo.
-      ;ooooo:.           ;oooooooc.  :l.
-       .coooooc,..      coooooooooo.
-         .:ooooooolc:. .ooooooooooo'
+========================= FASTFETCH DE CADIMA ================================
+                      ....               vagrant@linux-practice
+              .',:clooo:  .:looooo:.           ----------------------
+           .;looooooooc  .oooooooooo'          OS: Ubuntu jammy 22.04 x86_64
+        .;looooool:,''.  :ooooooooooc          Host: VirtualBox (1.2)
+       ;looool;.         'oooooooooo,          Kernel: 5.15.0-161-generic
+      ;clool'             .cooooooc.  ,,       Uptime: 2 hours, 17 mins
+         ...                ......  .:oo,      Packages: 606 (dpkg), 3 (snap)
+  .;clol:,.                        .loooo'     Shell: bash 5.1.16
+ :ooooooooo,                        'ooool     Terminal: /dev/pts/0
+'ooooooooooo.                        loooo.    CPU: Intel(R) Core(TM) i5-7300HQ (2) @ 2.50 GHz
+'ooooooooool                         coooo.    GPU: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter
+ ,loooooooc.                        .loooo.    Memory: 400.39 MiB / 1.92 GiB (20%)
+   .,;;;'.                          ;ooooc     Swap: Disabled
+       ...                         ,ooool.     Disk (/): 2.11 GiB / 38.70 GiB (5%) - ext4
+    .cooooc.              ..',,'.  .cooo.      Disk (/mnt/lvm_storage_cadima): 104.00 KiB / 1.44 GiB (0%) - ext4
+      ;ooooo:.           ;oooooooc.  :l.       Local IP (enp0s3): 10.0.2.15/24 *
+       .coooooc,..      coooooooooo.           Battery: 98%
+         .:ooooooolc:. .ooooooooooo'           Locale: C.UTF-8
            .':loooooo;  ,oooooooooc
-               ..';::c'  .;loooo:'[1G[19A[47Cvagrant@linux-practice
-[47C----------------------
-[47COS: Ubuntu 22.04.5 LTS (Jammy Jellyfish) x86_64
-[47CHost: VirtualBox (1.2)
-[47CKernel: Linux 5.15.0-160-generic
-[47CUptime: 58 mins
-[47CPackages: 706 (dpkg), 3 (snap)
-[47CShell: bash 5.1.16
-[47CDisplay (VBOX monitor): 1024x768, 60 Hz [External]
-[47CTerminal: 
-[47CCPU: AMD Ryzen 3 3200G (2) @ 3.59 GHz
-[47CGPU: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter
-[47CMemory: 353.84 MiB / 1.92 GiB (18%)
-[47CSwap: Disabled
-[47CDisk (/): 6.33 GiB / 38.70 GiB (16%) - ext4
-[47CLocal IP (enp0s3): 10.0.2.15/24
-[47CLocale: C.UTF-8
-[47C
-[47C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
-[47C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+               ..';::c'  .;loooo:'             ████████████████████████
+                             .                 ████████████████████████
+

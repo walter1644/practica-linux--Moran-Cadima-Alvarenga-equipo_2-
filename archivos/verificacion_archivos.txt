@@ -1,87 +1,27 @@
-========== VERIFICACIÓN DE ARCHIVOS - ALUMNO A - Moran ==========
-Estructura de directorios creada:
-/mnt/lvm_storage_moran_A
-/mnt/lvm_storage_moran_A/lost+found
-/mnt/lvm_storage_moran_A/proyectos
-/mnt/lvm_storage_moran_A/proyectos/activos
-/mnt/lvm_storage_moran_A/proyectos/archivados
-/mnt/lvm_storage_moran_A/temporalfdg
-/mnt/lvm_storage_moran_A/temporal
-/mnt/lvm_storage_moran_A/respaldos
+========== VERIFICACIÓN DE ARCHIVOS CADIMA ==========
+Estructura creada:
+/mnt/lvm_storage_cadima
+/mnt/lvm_storage_cadima/temporal
+/mnt/lvm_storage_cadima/proyectos
+/mnt/lvm_storage_cadima/proyectos/archivados
+/mnt/lvm_storage_cadima/proyectos/activos
+/mnt/lvm_storage_cadima/respaldos
+/mnt/lvm_storage_cadima/lost+found
 
 Archivos en cada directorio:
--rw-rw-r-- 1 vagrant vagrant 58 Nov 15 16:03 /mnt/lvm_storage_moran_A/test.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_07.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_08.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_06.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_10.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_09.txt
-
-========== VERIFICACIÓN DE ARCHIVOS - ALUMNO B - Moran ==========
-Estructura de directorios creada:
-/mnt/lvm_storage_moran_A
-/mnt/lvm_storage_moran_A/lost+found
-/mnt/lvm_storage_moran_A/proyectos
-/mnt/lvm_storage_moran_A/proyectos/activos
-/mnt/lvm_storage_moran_A/proyectos/archivados
-/mnt/lvm_storage_moran_A/temporalfdg
-/mnt/lvm_storage_moran_A/temporal
-/mnt/lvm_storage_moran_A/respaldos
-
-Archivos en cada directorio:
--rw-rw-r-- 1 vagrant vagrant 58 Nov 15 16:03 /mnt/lvm_storage_moran_A/test.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_07.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_08.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_06.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_10.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_09.txt
-
-========== VERIFICACIÓN DE ARCHIVOS - ALUMNO C - Moran ==========
-Estructura de directorios creada:
-/mnt/lvm_storage_moran_A
-/mnt/lvm_storage_moran_A/lost+found
-/mnt/lvm_storage_moran_A/proyectos
-/mnt/lvm_storage_moran_A/proyectos/activos
-/mnt/lvm_storage_moran_A/proyectos/archivados
-/mnt/lvm_storage_moran_A/temporalfdg
-/mnt/lvm_storage_moran_A/temporal
-/mnt/lvm_storage_moran_A/respaldos
-
-Archivos en cada directorio:
--rw-rw-r-- 1 vagrant vagrant 58 Nov 15 16:03 /mnt/lvm_storage_moran_A/test.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:34 /mnt/lvm_storage_moran_A/proyectos/activos/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_07.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_08.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/proyectos/archivados/documento_06.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_01.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_05.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_04.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_02.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:33 /mnt/lvm_storage_moran_A/temporal/documento_03.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_10.txt
--rw-rw-r-- 1 vagrant vagrant 68 Nov 15 16:35 /mnt/lvm_storage_moran_A/respaldos/documento_09.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:11 /mnt/lvm_storage_cadima/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 27 Nov 22 23:12 /mnt/lvm_storage_cadima/respaldos/documento_09.txt
 
