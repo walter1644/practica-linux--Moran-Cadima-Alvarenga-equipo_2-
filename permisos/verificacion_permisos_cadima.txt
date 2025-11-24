@@ -3,10 +3,13 @@
 total 8
 drwxrwxr-x 2 vagrant vagrant 4096 Nov 24 02:44 .
 drwxr-x--- 7 vagrant vagrant 4096 Nov 24 02:44 ..
--rw-rw-r-- 1 vagrant vagrant    0 Nov 24 02:44 privado.txt
+-rw------- 1 vagrant vagrant    0 Nov 24 02:44 privado.txt
 -rw-rw-r-- 1 vagrant vagrant    0 Nov 24 02:44 publico.txt
 
 --- Archivos en directorio colaborativo ---
+total 8
+drwxrwx---  2 root equipotrabajo 4096 Nov 24 02:53 .
+drwxrwxrwt 12 root root          4096 Nov 24 02:53 ..
 
 --- Información del grupo equipotrabajo ---
 equipotrabajo:x:1005:estudiante1,estudiante2,estudiante3,vagrant
