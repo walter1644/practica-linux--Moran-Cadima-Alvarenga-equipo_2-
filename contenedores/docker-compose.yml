@@ -67,7 +67,7 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=practica123
       - GF_USERS_ALLOW_SIGN_UP=false
     volumes:
-      - grafana-data:/var/lib/grafana
+      - grafana-storage:/var/lib/grafana
     restart: unless-stopped
     depends_on:
       - prometheus
@@ -80,4 +80,4 @@ networks:
     driver: bridge
 
 volumes:
-  grafana-data:
+  grafana-storage:
