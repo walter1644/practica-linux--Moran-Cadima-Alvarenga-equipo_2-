@@ -53,3 +53,30 @@ Archivos en cada directorio:
 -rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:33 /mnt/lvm_storage_moran_A/respaldos/documento_10.txt
 -rw-rw-r-- 1 vagrant vagrant 44 Nov 23 19:33 /mnt/lvm_storage_moran_A/respaldos/documento_09.txt
 
+========== VERIFICACIÓN DE ARCHIVOS - CADIMA ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_cadima
+/mnt/lvm_storage_cadima/temporal
+/mnt/lvm_storage_cadima/proyectos
+/mnt/lvm_storage_cadima/proyectos/archivados
+/mnt/lvm_storage_cadima/proyectos/activos
+/mnt/lvm_storage_cadima/respaldos
+/mnt/lvm_storage_cadima/lost+found
+
+Archivos en cada directorio:
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/temporal/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/temporal/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/temporal/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/temporal/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/temporal/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/proyectos/archivados/documento_08.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/proyectos/archivados/documento_07.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:27 /mnt/lvm_storage_cadima/proyectos/archivados/documento_06.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:28 /mnt/lvm_storage_cadima/proyectos/activos/documento_02.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:28 /mnt/lvm_storage_cadima/proyectos/activos/documento_05.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:28 /mnt/lvm_storage_cadima/proyectos/activos/documento_03.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:28 /mnt/lvm_storage_cadima/proyectos/activos/documento_04.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:28 /mnt/lvm_storage_cadima/proyectos/activos/documento_01.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:31 /mnt/lvm_storage_cadima/respaldos/documento_10.txt
+-rw-rw-r-- 1 vagrant vagrant 44 Nov 24 03:31 /mnt/lvm_storage_cadima/respaldos/documento_09.txt
+
