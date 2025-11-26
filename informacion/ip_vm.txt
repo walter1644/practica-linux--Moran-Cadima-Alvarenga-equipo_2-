@@ -18,3 +18,17 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3006ms
 rtt min/avg/max/mdev = 6.240/7.103/8.265/0.885 ms
 
+========== IP DE LA VM - HERMANN ==========
+    inet 192.168.100.20/24 metric 100 brd 192.168.100.255 scope global dynamic enp0s8
+
+=== PRUEBA DE CONEXIÓN (PING) ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=119 time=6.18 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=255 time=7.06 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=119 time=6.58 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=255 time=6.52 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 6.179/6.585/7.063/0.315 ms
+
