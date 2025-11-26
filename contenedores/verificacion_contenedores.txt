@@ -34,3 +34,74 @@ local     contenedores_grafana-data
 local     f75ad9a3a2b1785b77e3362ad4421e2a47143ab12395ef57a035713dda2e436c
 local     fe29861d0c5f859cb07ffea4e4680508222848360d1423bade6d1749081425dc
 
+========== VERIFICACIÓN CONTENEDORES - HERMANN ==========
+=== IP DE LA VM ===
+10.0.2.15 192.168.100.20 172.18.0.1 172.17.0.1 fd17:625c:f037:2:4c:36ff:fef5:e5d8 2803:9800:9015:4e4c:a00:27ff:fe8d:4ffd 
+
+=== CONTENEDORES EN EJECUCIÓN ===
+CONTAINER ID   IMAGE                    COMMAND                  CREATED       STATUS          PORTS                                         NAMES
+08f7aca4c46a   grafana/grafana:latest   "/run.sh"                11 days ago   Up 10 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   grafana-practica
+73e014893971   postgres:alpine          "docker-entrypoint.s…"   11 days ago   Up 10 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres-practica
+4dde0c6a5876   nginx:alpine             "/docker-entrypoint.…"   11 days ago   Up 10 minutes   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp       nginx-practica
+ef74b89c9b1a   redis:alpine             "docker-entrypoint.s…"   11 days ago   Up 10 minutes   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp   redis-practica
+5fd9e7666030   grafana/loki:latest      "/usr/bin/loki -conf…"   11 days ago   Up 10 minutes   0.0.0.0:3100->3100/tcp, [::]:3100->3100/tcp   loki-practica
+
+=== ESTADO DE DOCKER-COMPOSE ===
+       Name                      Command                State                      Ports                  
+----------------------------------------------------------------------------------------------------------
+grafana-practica      /run.sh                          Up         0.0.0.0:3000->3000/tcp,:::3000->3000/tcp
+loki-practica         /usr/bin/loki -config.file ...   Up         0.0.0.0:3100->3100/tcp,:::3100->3100/tcp
+nginx-practica        /docker-entrypoint.sh ngin ...   Up         0.0.0.0:8081->80/tcp,:::8081->80/tcp    
+postgres-practica     docker-entrypoint.sh postgres    Up         0.0.0.0:5432->5432/tcp,:::5432->5432/tcp
+prometheus-practica   /bin/prometheus --config.f ...   Exit 127                                           
+redis-practica        docker-entrypoint.sh redis ...   Up         0.0.0.0:6379->6379/tcp,:::6379->6379/tcp
+
+=== REDES DE DOCKER ===
+NETWORK ID     NAME                      DRIVER    SCOPE
+ffab89aaaa3a   bridge                    bridge    local
+e758603c307a   contenedores_monitoring   bridge    local
+253895a15b9c   host                      host      local
+0a0349b2a0cd   none                      null      local
+
+=== VOLÚMENES DE DOCKER ===
+DRIVER    VOLUME NAME
+local     b113d89d13883e3e0809d4ee4a9087ba2703c88191409cf32a0d3cee211d3677
+local     contenedores_grafana-data
+local     f75ad9a3a2b1785b77e3362ad4421e2a47143ab12395ef57a035713dda2e436c
+local     fe29861d0c5f859cb07ffea4e4680508222848360d1423bade6d1749081425dc
+
+=== TESTS DE SERVICIOS ===
+Test Nginx:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+
+Test Redis:
+PONG
+
+Test PostgreSQL:
+                                                 List of databases
+   Name    | Owner  | Encoding | Locale Provider |  Collate   |   Ctype    | Locale | ICU Rules | Access privileges 
+-----------+--------+----------+-----------------+------------+------------+--------+-----------+-------------------
+ postgres  | alumno | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           | 
+ template0 | alumno | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           | =c/alumno        +
+           |        |          |                 |            |            |        |           | alumno=CTc/alumno
+ template1 | alumno | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           | =c/alumno        +
+           |        |          |                 |            |            |        |           | alumno=CTc/alumno
+ tp_final  | alumno | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           | 
+(4 rows)
+
+
+Test Prometheus:
+
+Test Loki:
+Ingester not ready: waiting for 15s after being ready
+
+Test Grafana:
+{
+  "database": "ok",
+  "version": "12.2.1",
+  "commit": "563109b696e9c1cbaf345f2ab7a11f7f78422982"
+}
