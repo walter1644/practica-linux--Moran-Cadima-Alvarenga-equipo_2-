@@ -19,32 +19,35 @@
 
 ## 📂 Estructura del Proyecto
 
+## 📂 Estructura del Proyecto
+
+```text
 .
-├── archivos/                 # Ejercicio 5 – Gestión de Archivos
+├── archivos/
 │   ├── README.md
 │   └── verificacion_archivos.txt
-├── contenedores/             # Ejercicio 6 – Docker y Monitoreo
+├── contenedores/
 │   ├── README.md
-│   ├── capturas/             # Capturas de Docker y Grafana
+│   ├── capturas/
 │   ├── docker-compose.yml
 │   ├── errores_encontrados.md
 │   ├── logs_completos.txt
 │   ├── prometheus.yml
 │   ├── testing_hermann.md
 │   └── verificacion_contenedores.txt
-├── informacion/              # Ejercicios 0, 1 y 2
+├── informacion/
 │   ├── README.md
 │   ├── estructura_proyecto.txt
 │   ├── ip_vm.txt
 │   └── system_info.txt
-├── lamp/                     # Ejercicio Bonus (opcional)
+├── lamp/
 │   └── capturas/
-├── lvm/                      # Ejercicio 4 – LVM
+├── lvm/
 │   ├── README.md
 │   ├── lvm-cadima.txt
 │   ├── lvm-hermann.txt
 │   └── lvm-moran.txt
-├── permisos/                 # Ejercicio 3 – Permisos
+├── permisos/
 │   ├── README.md
 │   ├── privado_hermann.txt
 │   ├── publico_hermann.txt
@@ -54,6 +57,7 @@
 │   └── verificacion_permisos.txt
 ├── privado.txt
 └── publico.txt
+```
 
 ---
 
