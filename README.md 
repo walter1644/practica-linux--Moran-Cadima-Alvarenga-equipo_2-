@@ -12,9 +12,8 @@ Integrantes:
 En este trabajo práctico implementamos un entorno de trabajo colaborativo virtualizado utilizando Vagrant y VirtualBox sobre una distribución Ubuntu 22.04 LTS.
 El objetivo principal fue simular un escenario real de administración de servidores, gestionando usuarios, permisos de seguridad, almacenamiento lógico (LVM) y despliegue de servicios mediante contenedores Docker.
 
-### Estructura del Proyecto
-```text
-.
+
+Estructura del Proyecto
 
 ├── archivos/
 │   ├── README.md
@@ -81,7 +80,7 @@ Simulamos el agregado de un disco físico adicional de 2GB (/dev/sdc) y lo admin
      1.  Creamos los Physical Volumes (PV).
      2.  Agrupamos en Volume Groups (VG) (vg_datos).
      3.  Particionamos en Logical Volumes (LV) de 1.5GB.
-     4.  Formateamos en ext4 y configuramos el montaje persistente en /etc/fstab para que el                     disco no se desconecte al reiniciar la máquina.
+     4.  Formateamos en ext4 y configuramos el montaje persistente en /etc/fstab para que el disco no se desconecte al reiniciar la máquina.
 
 
  5. Scripting y Gestión de Archivos
