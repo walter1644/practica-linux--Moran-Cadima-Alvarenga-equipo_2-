@@ -1,4 +1,4 @@
- Trabajo Práctico: Administración de Sistemas Linux 
+### Trabajo Práctico: Administración de Sistemas Linux 
 
 Materia:Arquitectura y Sistemas Operativos
 Grupo: Equipo 2
@@ -15,7 +15,6 @@ El objetivo principal fue simular un escenario real de administración de servid
 ### Estructura del Proyecto
 ```text
 .
-
 ├── archivos/
 │   ├── README.md
 │   └── verificacion_archivos.txt
@@ -52,7 +51,7 @@ El objetivo principal fue simular un escenario real de administración de servid
 └── publico.txt
 
 
-Desarrollo y Tecnologías Implementadas
+###Desarrollo y Tecnologías Implementadas
 
 1. Virtualización y Entorno (Vagrant)
 Configuramos un Vagrantfile para automatizar el despliegue de la máquina virtual.
@@ -93,7 +92,7 @@ Desplegamos un stack de servicios interconectados utilizando Docker Compose:
 * Monitoreo: Implementamos Prometheus para métricas, Loki para logs y Grafana para la visualización de datos en tiempo real.
 * Solucionamos errores de configuración en los puertos y volúmenes definidos en el docker-compose.yml.
 
- Conclusión
+###Conclusión
 Este TP nos permitió integrar los conceptos teóricos de la materia en una práctica. Logramos coordinar el trabajo en equipo mediante Git, administrar recursos del sistema operativo (discos y permisos) y desplegar servicios modernos con contenedores, simulando un entorno de producción real.
 
 
