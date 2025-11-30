@@ -1,0 +1,7 @@
+CONTAINER ID   IMAGE                    COMMAND                  CREATED        STATUS          PORTS                                         NAMES
+17ae4b1ec91a   grafana/grafana:latest   "/run.sh"                14 hours ago   Up 11 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   grafana-practica
+268ba04dbda0   prom/prometheus:latest   "/bin/prometheus --c…"   14 hours ago   Up 11 minutes   0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp   prometheus-practica
+dc769d6abba4   nginx:alpine             "/docker-entrypoint.…"   14 hours ago   Up 11 minutes   0.0.0.0:8081->80/tcp, [::]:8081->80/tcp       nginx-practica
+bfc23dc07f19   redis:alpine             "docker-entrypoint.s…"   14 hours ago   Up 11 minutes   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp   redis-practica
+02035c276f4c   grafana/loki:latest      "/usr/bin/loki -conf…"   14 hours ago   Up 11 minutes   0.0.0.0:3100->3100/tcp, [::]:3100->3100/tcp   loki-practica
+c642f361609c   postgres:alpine          "docker-entrypoint.s…"   14 hours ago   Up 11 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   postgres-practica

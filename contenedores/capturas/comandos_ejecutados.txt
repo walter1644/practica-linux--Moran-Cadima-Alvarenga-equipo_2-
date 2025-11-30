@@ -1,0 +1,40 @@
+   22  docker --version
+   23  docker info
+  385  cat > contenedores/docker-compose.yml << 'EOF'
+  468  cat contenedores/docker-compose.yml
+  470  touch contenedores/docker-compose.yml
+  471  nano contenedores/docker-compose.yml
+  472  head -20 contenedores/docker-compose.yml
+  473  ls -lh contenedores/docker-compose.yml
+  478  docker-compose config
+  480  sudo apt-get install -y docker-compose
+  482  sudo apt-get install -y docker-compose
+  483  docker-compose --version
+  484  docker-compose config
+  485  nano contenedores/docker-compose.yml
+  488  nano docker-compose.yml
+  489  docker-compose config
+  490  nano docker-compose.yml
+  492  docker-compose up -d
+  493  tail -10 docker-compose.yml
+  494  sed -i 's/grafana-storage:/grafana-data:/g' docker-compose.yml
+  495  tail -3 docker-compose.yml
+  496  docker-compose config
+  497  cat > docker-compose.yml << 'EOF'version: '3.8'
+  573  docker-compose config | grep -A 3 "redis:"
+  574  rm docker-compose.yml
+  575  cat << 'EOF' > docker-compose.yml
+  653  cat docker-compose.yml
+  655  docker-compose config
+  656  docker-compose up -d
+  657  docker ps
+  658  docker-compose ps
+  666  docker ps >> verificacion_contenedores.txt
+  669  docker-compose ps >> verificacion_contenedores.txt
+  672  docker network ls >> verificacion_contenedores.txt
+  675  docker volume ls >> verificacion_contenedores.txt
+  677  docker-compose logs > logs_completos.txt
+  704  history | grep -E "docker|compose" > capturas/comandos_ejecutados.txt
+  708  history | grep -E "docker|compose" > capturas/comandos_ejecutados.txt
+  713  docker ps > capturas/docker_ps_output.txt
+  715  history | grep -E "docker|compose" > capturas/comandos_ejecutados.txt
