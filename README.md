@@ -1,3 +1,25 @@
+## Ejercicio BONUS: Servidor LAMP
+
+Stack completo LAMP implementado:
+- **Linux**: Ubuntu 22.04
+- **Apache**: 2.4.x
+- **MySQL**: 8.x
+- **PHP**: 8.1.2
+
+### Páginas implementadas:
+- `index.html` - Página principal con diseño moderno
+- `info.php` - Información del sistema PHP
+- `test_db.php` - Verificación de conexión a MySQL
+
+### Base de datos:
+- Base de datos: `tp_final_db`
+- Usuario: `alumno`
+- Conexión: exitosa
+
+[Capturas disponibles en `lamp/capturas/`]
+
+---
+
 # Trabajo Práctico – Administración de Sistemas Linux con Vagrant
 
 ## 📌 Integrantes del Equipo
